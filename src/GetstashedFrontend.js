@@ -210,7 +210,7 @@ useEffect(() => {
         isMounted = false;
         clearInterval(intervalId);
     };
-}, [generatedLinks]); // Only depend on generatedLinks
+}, [generatedLinks]);
 
 
     const massClaimAssets = async () => {
